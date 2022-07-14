@@ -106,7 +106,7 @@ public class TickMastService
         String sHtmlBegin = "<html><body>";
         String sHtmlJson = JsonToHtml(moJsonResponse, 0, 4);
         String sHtmlJsonUtf08 = new String(sHtmlJson.getBytes("ISO-8859-1"), "UTF-8");
-        System.out.printf("JsonToHtmlUtf8 %s \n", sHtmlJsonUtf08);
+        // System.out.printf("JsonToHtmlUtf8 %s \n", sHtmlJsonUtf08);
         String sHtmlEnd = "</body></html>";
         return (sHtmlBegin + sHtmlJsonUtf08 + sHtmlEnd);
     }
@@ -162,7 +162,7 @@ public class TickMastService
         String sHtmlBegin = "<html><body>";
         String sHtmlJson = JsonToHtml(moJsonResponse, 0, 4);
         String sHtmlJsonUtf08 = new String(sHtmlJson.getBytes("ISO-8859-1"), "UTF-8");
-        System.out.printf("JsonToHtmlUtf8 %s \n", sHtmlJsonUtf08);
+        // System.out.printf("JsonToHtmlUtf8 %s \n", sHtmlJsonUtf08);
         String sHtmlEnd = "</body></html>";
         return (sHtmlBegin + sHtmlJsonUtf08 + sHtmlEnd);
     }
