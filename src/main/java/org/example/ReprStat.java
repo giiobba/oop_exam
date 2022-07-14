@@ -9,9 +9,14 @@ import java.util.ArrayList;
 /**
  * Implements the class ReprStat used to represent an entry in a table of statistical frequencies for TicketMaster events.
  * <br>
- * Includes the "field" member, which is the event field used for statistics.
+ * Includes the "cty" and "weekday" members, which are the event fields used for statistics.
  * <br>
  * Includes the "frequency" member, which is the event field frequency used for statistics.
+ * <br>
+ * implements the static methods to compute the ReprEvent statistics:
+ * @StatCity provides statistics sorted by alphabetically city (provides frequency)
+ * @StatWeekday provides statistics sorted by week day (provides frequency)
+ * @StatCityWeekday provides statistics alphabetically sorted by city, provides minimal frequency, maximal frequency,each day frequency, the average of the amount of events in a week
  *
  * @author      Giovanni Patriarca, UNIVPM
  * @since 1.0

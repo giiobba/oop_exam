@@ -4,6 +4,16 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.util.ArrayList;
+/**
+ * Implements the class ReprEventParser used to parse events datas.
+ * <p>
+ * in this class it is implemented the @JsonToEventParse
+ * <p>
+ *
+ * @author      Giovanni Patriarca, UNIVPM
+ * @since 1.0
+ * @see org.example
+ */
 
 public class ReprEventParser {
 

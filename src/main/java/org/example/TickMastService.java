@@ -12,6 +12,25 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.*;
 
+/**
+ * Implements the TickMastService class, as a @Service, that is an implementation of the Service interface
+ * from the SpringBoot package "package org.springframework.stereotype".
+ * <p>
+ * Implements the @checkDataArgs and @checkStatArgs methods to validate the HTTP request parameters,
+ * for the /data and /stat requests, respectively.
+ * <br>
+ * Implements the @searchData method, which is the main functionality of the HTTP request for /data.
+ * <br>
+ * Implements the @searchStat method, which is the main functionality of the HTTP request for /stat.
+ * <br>
+ * Additionally, implements the method @JsonToHtml to format the output JSON object
+ * in a formatted HTML text for display in the web interface.
+ *
+ * @author      Giovanni Patriarca, UNIVPM
+ * @since 1.0
+ * @see org.example
+ */
+
 @Service
 public class TickMastService
 {

@@ -10,6 +10,23 @@ import org.springframework.boot.web.servlet.error.ErrorController;
 
 import java.util.HashMap;
 
+/**
+ * Implements the TickMastController class, as a @RestController, that is an implementation
+ * of the RestController interface from the SpringBoot package "org.springframework.web.bind.annotation".
+ * <p>
+ * Implements one method for each REST API call, namely @getResponseData for the /data request
+ * and @getResponseStat for the /stat request.
+ * <p>
+ * Additionally, as a derived class from the SpringBoot class @ErrorController, it implements
+ * a customized getResponseError method to handle error conditions
+ * (e.g. when the REST request is not valid, or the parameters are not valid)
+ * managing the /error case of the REST API call.
+ *
+ * @author      Giovanni Patriarca, UNIVPM
+ * @since 1.0
+ * @see org.example
+ */
+
 @RestController
 public class TickMastController implements ErrorController {
 
