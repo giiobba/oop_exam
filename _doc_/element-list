@@ -1,0 +1,7 @@
+com.ticketmaster.api
+com.ticketmaster.api.discovery
+com.ticketmaster.api.discovery.operation
+com.ticketmaster.api.discovery.response
+com.ticketmaster.api.discovery.util
+com.ticketmaster.discovery.model
+org.example
