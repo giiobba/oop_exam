@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
+import org.example.service.TickMastService;
+
 class TickMastTest {
 
     TickMastService moService = new TickMastService();
