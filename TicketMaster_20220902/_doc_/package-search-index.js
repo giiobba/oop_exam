@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.ticketmaster.api"},{"l":"com.ticketmaster.api.discovery"},{"l":"com.ticketmaster.api.discovery.operation"},{"l":"com.ticketmaster.api.discovery.response"},{"l":"com.ticketmaster.api.discovery.util"},{"l":"com.ticketmaster.discovery.model"},{"l":"org.example"}];updateSearchResults();
