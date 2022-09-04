@@ -45,6 +45,8 @@ http://localhost:8080/stat?countrycode=de&weekday
 
 http://localhost:8080/stat?countrycode=es&city&weekday
 
+http://localhost:8080/data?countrycode=nl&city=Amster
+
 # Exceptions 
 
 The managed exceptions are the following:
