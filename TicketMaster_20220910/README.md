@@ -14,13 +14,23 @@ Or run the TickMastTest class
 
 # CLASSES
 
+-TickMastController
+-TickMastService
 -ReprEvent
--ReprEventFilter
+-TickMastException
+-TickMastExceptionFilter 
+-TickMastExceptionParser
+-TickMastExceptionService
+-RepreEventFilter
+-RepreEventFilterCity
+-RepreEventFilterCityWeekday
+-RepreEventFilterWeekday
 -ReprEventParser
 -ReprStat
+-ReprStatCity
+-ReprStatCityWeekday
+-ReprStatWeekday
 -TickMastApplication
--TickMastException 
--TickMastService
 
 # COUNTRY CODES ACCEPTED 
 
@@ -45,7 +55,7 @@ http://localhost:8080/stat?countrycode=de&weekday
 
 http://localhost:8080/stat?countrycode=es&city&weekday
 
-# Exceptions 
+# EXCEPTIONS 
 
 The managed exceptions are the following:
 -syntax error:
@@ -54,5 +64,9 @@ The managed exceptions are the following:
   error message: TickMastService::searchData -- countrycode NOT VALID -- us
 -No available events in a specific country 
   error message: ReprEventParser::JsonToEventParse -- _embedded NOT FOUND
+  
+  # CREDITS
+  Programmer: Giovanni Patriarca
+  Intellijidea
   
   
